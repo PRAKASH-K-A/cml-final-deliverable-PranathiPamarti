@@ -1,0 +1,16 @@
+{
+  "base_url": "http://localhost:8090",
+  "target_orders": 500000,
+  "target_trades": 2000000,
+  "symbol": "AAPL",
+  "client_id_prefix": "G2M6",
+  "orders_per_batch": 1000,
+  "concurrency": 20,
+  "poll_interval_seconds": 1.5,
+  "max_wait_seconds": 120,
+  "latency_sla_ms": {
+    "p50": 10,
+    "p95": 50,
+    "p99": 100
+  }
+}
